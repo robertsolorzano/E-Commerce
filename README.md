@@ -6,6 +6,7 @@ A simple back-end application for an e-commerce website. It provides an API for 
 
 ## Table of Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -39,15 +40,27 @@ npm run seed
 
 ## Usage
 
+1. Start the server by running npm start in the terminal.
+2. Open Insomnia and create a new request collection for the project.
+3. Test the API endpoints by creating requests in Insomnia:
+    - GET all items or a single item by ID
+    - POST a new item
+    - PUT to update an existing item
+    - DELETE an item
+4. Set the appropriate HTTP method, URL, and request body (if required) for each request.
+5. View the API responses in the Insomnia interface to verify the success or failure of each operation.
 
+**Make to sure create a .env file and configure all enviornment variables to it**
 
 ## Contributing
 
+Contributors: [robertsolorzano](https://github.com/robertsolorzano)
 
 
 ## Credits
 
-
+Starter code for this project:
+[fantastic-umbrella - Xandromus](https://github.com/coding-boot-camp/fantastic-umbrella)
 
 
 ## License
