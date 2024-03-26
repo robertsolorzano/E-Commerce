@@ -52,6 +52,8 @@ npm run seed
 
 **Make to sure create a .env file and configure all enviornment variables to it**
 
+Video Demo: [Demo](https://www.youtube.com/watch?v=GeSne2XdyS8)
+
 ## Contributing
 
 Contributors: [robertsolorzano](https://github.com/robertsolorzano)
