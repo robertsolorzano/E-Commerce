@@ -33,14 +33,21 @@ git clone git@github.com:robertsolorzano/E-Commerce.git
 npm install
 ```
 
-3. Seed the database:
+3. Initialize schema by running this command in the MySQL shell: 
+
+```sql
+source ./db/schema.sql
+```
+
+
+4. Seed the database:
 ```bash
 npm run seed
 ```
 
 ## Usage
 
-1. Start the server by running npm start in the terminal.
+1. Start the server by running ```npm start``` in the terminal.
 2. Open Insomnia and create a new request collection for the project.
 3. Test the API endpoints by creating requests in Insomnia:
     - GET all items or a single item by ID
